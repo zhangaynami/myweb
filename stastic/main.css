@@ -1,0 +1,40 @@
+a {
+    text-decoration: none;
+    /* 去除下划线 */
+    color: black;
+    /* 设置字体颜色为黑色 */
+}
+
+.img-fluid {
+    padding: 20px 80px;
+    height: 40%;
+}
+
+.accordion-button,
+.accordion-body {
+    background-color: rgba(52, 73, 94, 0.6);
+}
+
+.icon-link:hover {
+    color: rgba(231, 76, 60, 1.0);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-y: scroll;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
